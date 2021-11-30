@@ -8,7 +8,7 @@ document.getElementById('bg-task').addEventListener("click", hide);
     document.getElementById('1').addEventListener('click', a);
 
     function a() {
-      let GivenDate = '2020-12-01';
+      let GivenDate = '2021-12-01';
       let CurrentDate = new Date();
       GivenDate = new Date(GivenDate);
 
@@ -25,7 +25,7 @@ document.getElementById('bg-task').addEventListener("click", hide);
     document.getElementById('2').addEventListener('click', b);
 
     function b() {
-      let GivenDate = '2020-12-02';
+      let GivenDate = '2021-12-02';
       let CurrentDate = new Date();
       GivenDate = new Date(GivenDate);
 
