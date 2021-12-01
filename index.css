@@ -1,0 +1,35 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {margin:0;height: 100%}
+.bgimg {
+  background-image: url('https://i2.wp.com/wallpapercave.com/wp/wp6845945.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li.navbar {
+    font-family: "Raleway", sans-serif;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover.navbar {
+    background-color: #111;
+  }
