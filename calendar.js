@@ -50,7 +50,7 @@ document.getElementById('bg-task').addEventListener("click", hide);
     document.getElementById('3').addEventListener('click', c);
 
     function c() {
-      let GivenDate = '2021-12-04';
+      let GivenDate = '2021-12-03';
       let CurrentDate = new Date();
       GivenDate = new Date(GivenDate);
 
